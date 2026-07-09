@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With Us</title>
+    <style>
+        /* Import a pixel font for the title and a clean sans-serif for the body */
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0a0a0a; /* Dark background */
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 2rem;
+            width: 100%;
+        }
+
+        .main-title {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+            color: #ffffff;
+            /* Slight stretch to mimic the specific pixel font in the image */
+            transform: scaleY(0.85); 
+        }
+
+        .subtitle {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+            max-width: 750px;
+            margin: 0 auto 3.5rem auto;
+        }
+
+        .card {
+            background-color: #141414; /* Slightly lighter gray for the card */
+            border: 1px solid #222;
+            border-radius: 12px;
+            padding: 4rem 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .card h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            letter-spacing: -0.5px;
+        }
+
+        .highlight-green {
+            color: #00ff66; /* Vibrant neon green */
+        }
+
+        .card-text {
+            font-size: 1.05rem;
+            color: #d1d1d1;
+            margin-bottom: 3.5rem;
+        }
+
+        .contact-info {
+            font-size: 1.15rem;
+            font-weight: 600;
+            line-height: 1.8;
+            color: #00ff66; /* Making the whole line green as requested in the image */
+        }
+
+        .contact-info a {
+            color: #00ff66;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 2rem;
+            }
+            .card h2 {
+                font-size: 2rem;
+            }
+        }
+        .btn-sponsor {
+            border-width: 1px;
+    background-color: #ffffff6e; /* Bright neon/mint green */
+    color: #ffffff; /* Black text for high contrast */
+    padding: 10px 24px;
+    border-radius: 50px; /* Creates the pill shape */
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700; /* Bold text */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent; /* Keeps sizing consistent on hover */
+}
+
+.btn-sponsor:hover {
+    background-color: #00e67a; /* Slightly darker green on hover */
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4); /* Neon glow effect */
+    transform: translateY(-1px); /* Slight lift effect */
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="main-title">PARTNER WITH US</h1>
+        <p class="subtitle">
+            Help us empower the next generation of cybersecurity leaders and get your brand<br>in front of top talent.
+        </p>
+
+        <div class="card">
+            <h2>Interested in <span class="highlight-green">Sponsoring</span>?</h2>
+            <p class="card-text">
+                Please reach out to us directly for sponsorship packages and opportunities.
+            </p>
+            
+            <div class="contact-info">
+                <div>Email: <a href="mailto:cybersentinels.jcoe@gmail.com">cybersentinels.jcoe@gmail.com</a></div>
+            </div>
+        </div>
+    </div>
+<br><br>
+<a href="index.html" class="btn-sponsor">Go Back</a>
+</body>
+</html>
